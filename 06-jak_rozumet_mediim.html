@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Prezentace: Setkání 6 - Jak rozumět médiím</title>
+
+    <link rel="stylesheet" href="dist/reset.css">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/simple.css">
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css">
+
+    <style>
+      img.scale-60vh { height: 60vh;}
+      img.scale-50vh { height: 50vh;}
+      img.scale-40vh { height: 40vh;}
+      img.scale-30vh { height: 30vh;}
+
+      :root {
+        --r-main-font: Helvetica, sans-serif;
+        --r-main-font-size: 35px;
+      }
+      .full {
+        height:100%;
+          width:100%;
+      }
+
+      .caption {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        max-width: 60%;
+        text-align: right;
+
+        font-size: 0.6em;
+        line-height: 1.2em;
+        padding: 0.2em;
+      }
+      .black{
+        color: black;
+        background-color: rgba(255, 255, 255, .8);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown data-separator-notes="^Note:">
+          <textarea data-template>
+## Jak rozumět médiím
+#### (Teorie humanitních věd 2, 28. 3. 2022)
+
+---
+### Četba
+* Friedrich Kittler, “Počítačový analfabetismus.” In: Společenské vědy a audiovize”. Online [zde](https://monoskop.org/images/d/d8/Bendova_Helena_Strnad_Matej_eds_Spolecenske_vedy_a_audiovize_2014.pdf), strany 651-668.
+---
+
+### Produkce map
+- *každá mapa je špatná*
+- Mercatorova projekce
+- *mapa není území* (Alfred Korzybski)
+- kritická kartografie
+  - Michel Foucault: moc a vědění
+
+</textarea></section>
+
+<section  data-transition="none" data-background-image="img/05-jak_chodit_po_meste-Mercator_projection_Square.jpg" data-background-size="contain" data-background-color="black" class="full">
+<div class="caption black">
+Mercatorovo zobrazení (1569)
+</div>
+</section>
+
+<section data-markdown data-separator-notes="^Note:">
+<textarea data-template>
+
+### Doporučená literatura
+- Lev Manovich
+- Marshall McLuhan
+- Kittler
+- Kateřiny
+
+---
+### Přečíst na příště
+
+---
+### Konzultace 28. 3. 2022
+- Závěrečná "metodologická" esej
+  - téma zaslat do 4. 4. 2022 na borjana.dodova@gmail.com
+  - inspirace:
+    - Cameron Blevins: Mining and Mapping the Production of Space [zde (waybackmachine)](https://web.archive.org/web/20220125152841/http://web.stanford.edu/group/spatialhistory/cgi-bin/site/pub.php?id=93).
+
+---
+###
+Děkuji za pozornost
+
+            </textarea>
+        </section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      Reveal.initialize({
+        hash: true,
+        slideNumber: true,
+        showNotes: false,
+        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+        });
+    </script>
+  </body>
+</html>
